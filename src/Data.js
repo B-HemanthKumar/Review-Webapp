@@ -63,7 +63,7 @@ export const allWorks = {
   ],
 };
 
-export const Testimonals = [
+export const reviews = [
   {
     name: "Hemanth kumar",
     rating: 4.5,

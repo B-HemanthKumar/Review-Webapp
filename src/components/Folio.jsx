@@ -1,6 +1,6 @@
 import React, { useState } from "react";
 import "./Folio.css";
-import { allWorks } from "../Data";
+import { allWorks, reviews } from "../Data";
 
 const Folio = () => {
   const [work, setWork] = useState("creatives");
@@ -24,6 +24,15 @@ const Folio = () => {
           <>
             <h3>{d.name}</h3>
             <div className="image">{d.image}</div>
+          </>
+        ))}
+      </div>
+      <div className="wrk">
+        {reviews.map((d) => (
+          <>
+            <h3>{d.name}</h3>
+            <p>{d.rating}</p>
+            <p>{d.desc}</p>
           </>
         ))}
       </div>
