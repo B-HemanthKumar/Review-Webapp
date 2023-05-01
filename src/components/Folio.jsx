@@ -1,29 +1,34 @@
-import React, { useState } from 'react'
-import "./Folio.css"
-import { AllWorks } from '../Data'
+import React, { useState } from "react";
+import "./Folio.css";
+import { allWorks } from "../Data";
 
 const Folio = () => {
+  const [work, setWork] = useState("creatives");
 
-    const [work, SetWork] = useState();
-  
-    return (
+  return (
     <>
-        <div className='container'>
-            <button className='button1'>Creative</button>
-            <button className='button1'>Email</button>
-            <button className='button1'>Landing Page</button>
-        </div>
+      <div className="container">
+        <button className="button1" onClick={() => setWork("creatives")}>
+          Creatives
+        </button>
+        <button className="button1" onClick={() => setWork("emails")}>
+          Emails
+        </button>
+        <button className="button1" onClick={() => setWork("landingPages")}>
+          Landing Pages
+        </button>
+      </div>
 
-        <div className='wrk'> 
-        {
-            AllWorks.map
-        }
-        <div className='image'> </div>
+      <div className="wrk">
+        {allWorks[work].map((d) => (
+          <>
+            <h3>{d.name}</h3>
+            <div className="image">{d.image}</div>
+          </>
+        ))}
+      </div>
 
-        </div> 
-
-
-    {/* <div className='container'>
+      {/* <div className='container'>
        <div className='services'>
          
            <h2>OUR SERVICES</h2>
@@ -68,8 +73,8 @@ const Folio = () => {
 
             </div>
             </div> */}
-        </>
-  )
-}
+    </>
+  );
+};
 
-export default Folio
+export default Folio;
