@@ -22,17 +22,59 @@ const Folio = () => {
       <div className="wrk">
         {allWorks[work].map((d) => (
           <>
+          <div className='iwrk'>
             <h3>{d.name}</h3>
             <div className="image">{d.image}</div>
+            </div>
           </>
         ))}
       </div>
-      <div className="wrk">
+
+      <h2> FILTER BY :</h2>
+      <div className='fcont'>
+        
+        <div className='ftext'> Reviews 
+            <select>
+              <option className='opt' disabled selected> Popularity</option>
+              
+              <option className='opt'> 1</option>
+              
+              <option className='opt'> 1</option>
+              
+              <option className='opt'> 1</option>
+              
+              <option className='opt'> 1</option>
+
+            </select>
+            </div>
+<div>
+
+  <div className='ftext'>Rating
+            <select>
+              <option className='opt' disabled selected> Rating</option>
+              
+              <option className='opt'> 1</option>
+              
+              <option className='opt'> 2</option>
+              
+              <option className='opt'> 3</option>
+              
+              <option className='opt'> 4</option>
+
+            </select>
+          </div> 
+          </div>
+      </div>
+      <div className="reviews">
         {reviews.map((d) => (
           <>
+          <div className='rc'>
+            
             <h3>{d.name}</h3>
             <p>{d.rating}</p>
             <p>{d.desc}</p>
+            </div>
+           
           </>
         ))}
       </div>

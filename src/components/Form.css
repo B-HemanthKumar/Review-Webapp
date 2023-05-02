@@ -1,0 +1,35 @@
+#form{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    padding: 20px;
+    margin: 20px 0px;
+    border: 2px solid grey;
+    border-radius: 30px;
+    color: black;
+    background-color: rgb(149, 157, 160);
+    margin: 30px;
+}
+
+label{
+    color: #fff;
+    font-size: 15px;
+    /* margin-right: 10px; */
+    margin-top: 10px;
+}
+
+.input1{
+    margin-left: 05px;
+    border-radius: 10px;
+    margin-top: 10px;
+    padding: 10px;
+}
+
+.submit1{
+    background-color: #fff;
+    /* border: 2px solid grey ; */
+    border-radius: 10px;
+    padding: 05px;
+    margin: 20px 10px;
+}
