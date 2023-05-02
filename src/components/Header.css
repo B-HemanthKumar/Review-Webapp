@@ -1,0 +1,9 @@
+.header{
+    height: 70px;
+    background-color: rgb(28, 218, 243);
+    color: black;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    border-radius: 50px;
+}

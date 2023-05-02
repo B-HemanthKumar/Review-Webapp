@@ -1,6 +1,6 @@
-export const  AllWorks = {
+export const  allWorks = {
 
-    Creative: [
+    creatives: [
 
         {
             "name":"1st work",
@@ -22,7 +22,7 @@ export const  AllWorks = {
         }
     ],
 
-    Emails :[
+    emails :[
 
         {
             "name":"1st work",
@@ -45,7 +45,7 @@ export const  AllWorks = {
 
     ],
 
-    LandingPages :[
+    landingPages :[
 
         {
             "name":"1st work",
@@ -70,49 +70,49 @@ export const  AllWorks = {
 
 }
 
-export const Testimonals= [
+export const reviews= [
     {
         "name":"Hemanth kumar",
-        "rating":4.5,
+        "rating":4.0,
         "desc":"The Ui of the application fantastic !"
     },
     {
         "name":"Hemanth kumar",
-        "rating":4.5,
+        "rating":3.5,
         "desc":"The Ui of the application fantastic !"
     },
     {
         "name":"Hemanth kumar",
-        "rating":4.5,
+        "rating":3.5,
         "desc":"The Ui of the application fantastic !"
     },
     {
         "name":"Hemanth kumar",
-        "rating":4.5,
+        "rating":2.5,
         "desc":"The Ui of the application fantastic !"
     },
     {
         "name":"Hemanth kumar",
-        "rating":4.5,
+        "rating":5.0,
         "desc":"The Ui of the application fantastic !"
     },
     {
         "name":"Hemanth kumar",
-        "rating":4.5,
+        "rating":4.0,
         "desc":"The Ui of the application fantastic !"
     },
     {
         "name":"Hemanth kumar",
-        "rating":4.5,
+        "rating":2.0,
         "desc":"The Ui of the application fantastic !"
     },
     {
         "name":"Hemanth kumar",
-        "rating":4.5,
+        "rating":3.0,
         "desc":"The Ui of the application fantastic !"
     }, {
         "name":"Hemanth kumar",
-        "rating":4.5,
+        "rating":5.0,
         "desc":"The Ui of the application fantastic !"
     }
 ]
