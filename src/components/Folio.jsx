@@ -3,15 +3,13 @@ import "./Folio.css"
 import {  allWorks, reviews } from '../Data'
 
 const Folio = () => {
-
-   
   const [work, setWork] = useState("creatives");
 
   return (
     <>
       <div className="container">
         <button className="button1" onClick={() => setWork("creatives")}>
-          Creatives  
+          Creatives
         </button>
         <button className="button1" onClick={() => setWork("emails")}>
           Emails
@@ -39,8 +37,7 @@ const Folio = () => {
         ))}
       </div>
 
-
-    {/* <div className='container'>
+      {/* <div className='container'>
        <div className='services'>
          
            <h2>OUR SERVICES</h2>
@@ -85,8 +82,8 @@ const Folio = () => {
 
             </div>
             </div> */}
-        </>
-  )
-}
+    </>
+  );
+};
 
-export default Folio
+export default Folio;
