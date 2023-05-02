@@ -22,7 +22,7 @@ export const allWorks = {
 
   emails: [
     {
-      name: "1st work",
+      name: "1st email work",
       image: "",
     },
 
@@ -43,7 +43,7 @@ export const allWorks = {
 
   landingPages: [
     {
-      name: "1st work",
+      name: "1st  landing page work",
       image: "",
     },
 
